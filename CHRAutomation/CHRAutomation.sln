@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHRSmoke", "CHRSmoke\CHRSmoke.csproj", "{45B65554-4D41-4FD7-9624-E88FBD1A6D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionInstantImpact", "RegressionInstantImpact\RegressionInstantImpact.csproj", "{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionProofGallery", "RegressionProofGallery\RegressionProofGallery.csproj", "{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionDesignTracker", "RegressionDesignTracker\RegressionDesignTracker.csproj", "{4CAC3538-2E20-4888-B26A-808F38A5BF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionConsolidator", "RegressionConsolidator\RegressionConsolidator.csproj", "{AD226013-AAC6-400F-8290-18F87028359D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionPOSWarehouse", "RegressionPOSWarehouse\RegressionPOSWarehouse.csproj", "{58B2B507-2172-4310-A65A-2EA59D370779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHREnhancements", "CHREnhancements\CHREnhancements.csproj", "{2812701E-90FA-4EF3-8E37-C83A5F9036F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		RegressionUAT|Any CPU = RegressionUAT|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SmokeDEV|Any CPU = SmokeDEV|Any CPU
+		SmokeProd|Any CPU = SmokeProd|Any CPU
+		SmokeStage|Any CPU = SmokeStage|Any CPU
+		SmokeUAT|Any CPU = SmokeUAT|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.RegressionUAT|Any CPU.ActiveCfg = SmokeUAT|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.RegressionUAT|Any CPU.Build.0 = SmokeUAT|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeStage|Any CPU.ActiveCfg = SmokeStage|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeStage|Any CPU.Build.0 = SmokeStage|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeUAT|Any CPU.ActiveCfg = SmokeUAT|Any CPU
+		{45B65554-4D41-4FD7-9624-E88FBD1A6D43}.SmokeUAT|Any CPU.Build.0 = SmokeUAT|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.RegressionUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.RegressionUAT|Any CPU.Build.0 = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeStage|Any CPU.ActiveCfg = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeStage|Any CPU.Build.0 = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{8A629FF2-361C-41C6-BD4C-0E7EDDBA01AF}.SmokeUAT|Any CPU.Build.0 = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.RegressionUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.RegressionUAT|Any CPU.Build.0 = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeStage|Any CPU.ActiveCfg = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeStage|Any CPU.Build.0 = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{FA416928-64CD-43C1-AEB0-68C8F5CF2D27}.SmokeUAT|Any CPU.Build.0 = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.RegressionUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.RegressionUAT|Any CPU.Build.0 = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeStage|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeStage|Any CPU.Build.0 = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC3538-2E20-4888-B26A-808F38A5BF03}.SmokeUAT|Any CPU.Build.0 = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.RegressionUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.RegressionUAT|Any CPU.Build.0 = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeStage|Any CPU.ActiveCfg = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeStage|Any CPU.Build.0 = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{AD226013-AAC6-400F-8290-18F87028359D}.SmokeUAT|Any CPU.Build.0 = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.RegressionUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.RegressionUAT|Any CPU.Build.0 = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeStage|Any CPU.ActiveCfg = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeStage|Any CPU.Build.0 = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{58B2B507-2172-4310-A65A-2EA59D370779}.SmokeUAT|Any CPU.Build.0 = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.RegressionUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.RegressionUAT|Any CPU.Build.0 = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeDEV|Any CPU.ActiveCfg = SmokeDEV|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeDEV|Any CPU.Build.0 = SmokeDEV|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeProd|Any CPU.ActiveCfg = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeProd|Any CPU.Build.0 = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeStage|Any CPU.ActiveCfg = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeStage|Any CPU.Build.0 = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeUAT|Any CPU.ActiveCfg = Release|Any CPU
+		{2812701E-90FA-4EF3-8E37-C83A5F9036F9}.SmokeUAT|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DE34814-8A39-4620-93D9-9EBC74F9787E}
+	EndGlobalSection
+EndGlobal
